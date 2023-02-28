@@ -1,0 +1,884 @@
+body
+{
+    margin-top: 10px;
+    background-color: #8098b4;
+}
+#logo
+{
+    margin-left: 15px;
+}
+nav
+{
+    border: 2px solid white;
+    background-color: rgb(65, 125, 105);
+    margin-top:1px 0 10px;
+    border-radius: 20px;
+    float: right;
+    padding: 10px;
+    margin-right: 10px;
+    display: none;
+}
+nav > a
+{
+    padding: 20px;
+    text-decoration: none;
+    color: gold;
+    font-family: calibri;
+    transition: margin-right 0.5s;
+}
+nav > a:hover
+{
+    color: rgb(161, 161, 246);
+}
+#showbut
+{
+    display: block;
+    margin-top: 15px;
+    margin-right: 25px;
+    font-size: 15pt;
+    float: right;
+    transition: width 3s;
+}
+
+
+#header-img
+{
+    margin: auto;
+    width: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    background-color: rgb(81, 81, 153);
+}
+#best
+{
+    width: 45%;
+    display: block;
+    margin-left: 35px;
+}
+#best > p
+{
+    background-color: #f7c17b;
+    width: 70px;
+    margin: auto;
+    text-align: center;
+    color: #325662;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 100px;
+    padding: 26px 0;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#best > img
+{
+    width: 100%;
+    margin-left: 25px;
+}
+#header-label
+{
+    width: 50%;
+    margin: auto;
+    margin-left: 18px;
+    display: block;
+}
+#header-label > h2
+{
+    font-family: calibri;
+    color: white;
+    width: 30%;
+    font-size: 40pt;
+    margin-left: 50px;
+    margin-top: 0;
+}
+#header-label > p
+{
+    font-family: calibri;
+    margin-left: 50px;
+    color: white;
+    width: 70%;
+}
+#header-label > a
+{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    font-family: monospace;
+    font-size: 13pt;
+    padding: 15px;
+    border-radius: 15px;
+    display: block;
+    text-align: center;
+    width: 30%;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+#header-label > a:hover
+{
+    color: black;
+    background-color: rgb(201, 208, 125);
+ 
+}
+
+
+#cycle1
+{
+    margin: auto;
+    width: fit-content;
+    display: block;
+    text-align: center;
+    margin-bottom: 50px;
+}
+#cycle1 > h2
+{
+    font-family: calibri;
+    font-weight: bold;
+    font-size: 30pt;
+}
+#cycle1 > label
+{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    border: 2px dotted black;
+    letter-spacing: 2px;
+    display: block;
+    width: fit-content;
+    margin: auto;
+    margin-top: -30px;
+    padding: 20px;
+}
+
+
+#cycle2
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 60px;
+}
+#img2
+{
+    width: 40%;
+    display: block;
+    margin-left: 50px;
+}
+#img2 > p
+{
+    background-color: #525a62;
+    width: 80px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 100px;
+    padding: 28px 0;
+    text-transform: uppercase;
+    margin: auto;
+    margin-bottom: 20px;
+}
+#img2 > img
+{
+    width: 80%;
+    margin-left: 25px;
+}
+#cycles2
+{
+    width: 45%;
+    display: block;
+    margin: auto;
+    align-items: center;
+    border: 2px solid gray;
+    border-radius: 20px;
+    background-color: black;
+    padding: 20px 15px 15px 15px;
+    box-shadow: -4px 4px 6px 6px black;
+}
+#cycles2 > h2
+{
+    font-family: calibri;
+    color: white;
+    font-size: 35pt;
+    display: block;
+    margin: auto;
+    margin-left: 30px;
+    margin-right: 16px;
+    text-align: right;
+}
+#cycles2 > h2::after
+{
+    display: block;
+    content: "";
+    background-color: white;
+    height: 2px;
+    width: 240px;
+}
+#cycles2 > label
+{
+    font-family: calibri;
+    color: white;
+    width: 75%;
+    line-height: 1.5;
+    display: block;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+#cycles2 > a
+{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    font-family: monospace;
+    font-size: 13pt;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    width: 25%;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+#cycles2 > a:hover
+{
+    background-color: rgb(201, 208, 125);
+}
+#cycles2 > p
+{
+    font-family: calibri;
+    margin-left: 300px;
+    color:  #f7c17b;
+    width: fit-content;
+    line-height: 1.5;
+    display: block;
+    margin-top: -35px;
+    font-size: 15pt;
+}
+
+
+#cycle33
+{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: fit-content;
+    margin-bottom: 80px;
+}
+#cycles3
+{
+    width: 42%;
+    display: block;
+    margin: auto;
+    align-items: center;
+    border: 2px solid gray;
+    border-radius: 20px;
+    background-color: black;
+    padding: 20px 15px 15px 15px;
+    box-shadow: -4px 4px 6px 6px black;
+}
+#cycles3 > h2
+{
+    font-family: calibri;
+    color: white;
+    font-size: 30pt;
+    display: block;
+    margin: auto;
+    margin-left: 30px;
+    margin-right: 16px;
+    text-align: right;
+}
+#cycles3 > h2::after
+{
+    display: block;
+    content: "";
+    background-color: white;
+    height: 2px;
+    width: 150px;
+}
+#cycles3 > label
+{
+    font-family: calibri;
+    color: white;
+    width: 80%;
+    line-height: 1.5;
+    display: block;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+#cycles3 > a
+{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    font-family: monospace;
+    font-size: 13pt;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    width: 25%;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+#cycles3 > a:hover
+{
+    background-color: rgb(201, 208, 125);
+}
+#cycles3 > p
+{
+    font-family: calibri;
+    margin-left: 300px;
+    color:  #f7c17b;
+    width: fit-content;
+    line-height: 1.5;
+    display: block;
+    margin-top: -35px;
+    font-size: 15pt;
+}
+#cycle3
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: fit-content;
+    margin: auto;
+}
+#img3
+{
+    width: 45%;
+    display: block;
+    margin: auto;
+}
+#img3 > p
+{
+    background-color: #525a62;
+    width: 80px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 100px;
+    padding: 28px 0;
+    text-transform: uppercase;
+    margin: auto;
+    margin-bottom: 10px;
+}
+#img3 > img
+{
+    width: 100%;
+}
+
+
+#cycle4
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 50px;
+}
+#img4
+{
+    width: 45%;
+    display: block;
+}
+#img4 > p
+{
+    background-color: #525a62;
+    width: 80px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 100px;
+    padding: 28px 0;
+    text-transform: uppercase;
+    margin: auto;
+    margin-bottom: 10px;
+}
+#img4 > img
+{
+    width: 100%;
+}
+#cycles4
+{
+    width: 43%;
+    display: block;
+    margin: auto;
+    align-items: center;
+    border: 2px solid gray;
+    border-radius: 20px;
+    background-color: black;
+    padding: 20px 15px 15px 15px;
+    box-shadow: -4px 4px 6px 6px black;
+}
+#cycles4 > h2
+{
+    font-family: calibri;
+    color: white;
+    font-size: 30pt;
+    display: block;
+    margin: auto;
+    margin-left: 30px;
+    margin-right: 16px;
+    text-align: right;
+}
+#cycles4 > h2::after
+{
+    display: block;
+    content: "";
+    background-color: white;
+    height: 2px;
+    width: 160px;
+}
+#cycles4 > label
+{
+    font-family: calibri;
+    color: white;
+    width: 80%;
+    line-height: 1.5;
+    display: block;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+#cycles4 > a
+{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    font-family: monospace;
+    font-size: 13pt;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    width: 25%;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+#cycles4 > a:hover
+{
+    background-color: rgb(201, 208, 125);
+}
+#cycles4 > p
+{
+    font-family: calibri;
+    margin-left: 300px;
+    color:  #f7c17b;
+    width: fit-content;
+    line-height: 1.5;
+    display: block;
+    margin-top: -35px;
+    font-size: 15pt;
+}
+  
+#read
+{
+    margin-bottom: 100px;
+}
+#read > a
+{
+    text-decoration: none;
+    color: white;
+    font-family: calibri;
+    font-size: 14pt;
+    background-color: #325662;
+    margin: auto;
+    padding: 15px;
+    display: block;
+    width: 20%;
+    text-align: center;
+}
+#read > a:hover
+{
+    background-color: black;
+}
+
+
+#about
+{
+    width: 60%;
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+#about > h2
+{
+    font-family: calibri;
+    font-size: 30pt;
+    font-weight: bold;
+    color: black;
+}
+#about > label
+{
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    color: white;
+    display: block;
+    margin-top: -15px;
+}
+
+
+#img5
+{
+    margin: auto;
+    display: block;
+    width: fit-content;
+    margin-bottom: 100px;
+}
+#img5 > img
+{
+    width: 75%;
+    display: block;
+    margin: auto;
+}
+#img5 > a
+{
+    text-decoration: none;
+    color: white;
+    font-family: calibri;
+    font-size: 14pt;
+    background-color: #325662;
+    margin: auto;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    width: 20%;
+    margin-top: 15px;
+}
+#img5 > a:hover
+{
+    color: white;
+    background-color: black;
+}
+
+
+#say
+{
+    font-family: calibri;
+    font-size: 25pt;
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 40px;
+}
+#bts
+{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    border: 2px solid black;
+    padding: 20px 0;
+    border-radius: 20px;
+    margin-bottom: 100px;
+}
+#bts > img
+{
+    display: block;
+    width: 20%;
+    margin: auto;
+    margin-right: -60px;
+}
+#bangtan
+{
+    width: 60%;
+    margin: auto;
+    display: block;
+}
+#bangtan > p
+{
+    font-family: calibri;
+    font-size: 16pt;
+    width: 90%;
+    display: block;
+    margin: auto;
+    line-height: 1.5;
+    color: rgb(241, 237, 237);
+}
+#bangtan > label
+{
+    font-family: calibri;
+    font-weight: bold;
+    display: block;
+    margin: auto;
+    width: 80%;
+    margin-top: 15px;
+    color: #5a22b4;
+}
+
+
+#footer
+{
+    background-color: #3c757e;
+    width: 100%;
+    margin: auto;
+}
+#news
+{
+    padding-top: 30px;
+    padding-bottom: 80px;
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+}
+#news > h2
+{
+    color: white;
+    font-family: calibri;
+    font-size: 25pt;
+}
+#news > label
+{
+    color: white;
+    font-family: calibri;
+    letter-spacing: 1.3;
+    font-size: 16pt;
+    display: block;
+    margin: auto;
+    width: 70%;
+}
+
+
+#speedcycle
+{
+    overflow: hidden;
+    margin-left: 10px;
+    display: block;
+    width: 320px;
+    margin: auto;
+}
+#speedcycle:hover
+{
+    box-shadow: 4px 4px 8px 3px black;
+    width: 320px;
+}
+#speedcycle > img
+{
+    transition: transform 2s ease;
+    width: 320px;
+}
+#speedcycle > img:hover
+{
+    transform: scale(1.2);
+}
+
+#speed
+{
+    background-color: white;
+    display: block;
+    margin-top: -25px;
+    width: 320px;
+    height: 280px;
+}
+#speed > h2
+{
+    font-family: Poppins, sans-serif;
+    font-weight: lighter;
+    font-size: 18pt;
+    padding: 20px;
+}
+#post
+{
+    padding: 20px;
+    margin-top: -30px;
+}
+#post > span
+{
+    float: right;
+}
+#speed > p
+{
+    font-family: calibri;
+    line-height: 1.3;
+    padding: 20px;
+    margin-top: -20px;
+    font-size: 15pt;
+}
+
+
+#speedcycle2
+{
+    overflow: hidden;
+    margin-left: 10px;
+    display: block;
+    width: 320px;
+    margin: auto;
+}
+#speedcycle2:hover
+{
+    box-shadow: 4px 4px 8px 3px black;
+    width: 320px;
+}
+#speedcycle2 > img
+{
+    transition: transform 2s ease;
+    width: 320px;
+}
+#speedcycle2 > img:hover
+{
+    transform: scale(1.2);
+}
+
+
+#speedcycle3
+{
+    overflow: hidden;
+    margin-left: 10px;
+    display: block;
+    width: 320px;
+    margin: auto;
+}
+#speedcycle3:hover
+{
+    box-shadow: 4px 4px 8px 3px black;
+    width: 320px;
+}
+#speedcycle3 > img
+{
+    transition: transform 2s ease;
+    width: 320px;
+}
+#speedcycle3 > img:hover
+{
+    transform: scale(1.2);
+}
+
+#den
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-bottom: 130px;
+}
+  
+
+#call
+{
+    display: block;
+    margin: auto;
+    width: 40%;
+    margin-bottom: 100px;
+}
+#call > h2
+{
+    font-family: calibri;
+    font-size: 30pt;
+    color: white;
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+}
+#poform > input
+{
+    font-size: 11pt;
+    padding: 15px;
+    border: 1px solid white;
+    border-radius: 20px;
+    width: 320px;
+    margin-bottom: 15px;
+    display: block;
+    margin: auto;
+}
+#poform > textarea
+{
+    font-size: 13pt;
+    font-family: calibri;
+    width: 320px;
+    border-radius: 15px;
+    border: 1px solid white;
+    padding: 15px;
+    margin-bottom: 20px;
+    display: block;
+    margin: auto;
+}
+#poform > button
+{
+    background-color: #182527;
+    border: none;
+    color: white;
+    padding: 10px;
+    width: 30%;
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+}
+#poform > button:hover
+{
+    background-color: rgb(60, 55, 55);
+}
+
+
+#map
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+#fasolid
+{
+    display: block;
+    margin: auto;
+    margin-top: 0;
+    margin-left: -30px;
+}
+#fasolid > p
+{
+    padding: 5px;
+    font-size: 20pt;
+}
+#fasolid > input
+{
+    margin-top: 20px;
+    width: 180px;
+    padding: 15px;
+}
+#fasolid > a
+{
+    text-decoration: none;
+    color: white;
+    font-family: calibri;
+    background-color: #182527;
+    display: block;
+    width: 50%;
+    text-align: center;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    font-size: 13pt;
+}
+#fasolid > a:hover
+{
+    background-color: rgb(60, 55, 55);
+}
+#falabel
+{
+    margin-left: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15pt;
+}
+#face
+{
+    margin-left: 20px;
+}
+#face > i
+{
+    padding: 15px;
+    font-size: 10pt;
+    background-color: #182527;
+    border-radius: 20px;
+    color: white;
+}
+
+#thank
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(206, 184, 184);
+    padding: 30px;
+    display: block;
+    text-align: center;
+    font-size: 8pt;
+}
